@@ -1,4 +1,16 @@
-[string[]]$appList='vscode','nodejs','notepadplusplus','python','ruby','vscode-rubi','jekyll'
+[string[]]$appList=
+    'nodejs',
+    'notepadplusplus',
+    'python',
+    'ruby',
+    'jekyll', 
+    'googlechrome', 
+    'firefox', 
+    'microsoft-edge',
+    'git', 
+    'vscode',
+    'visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"',
+    'docker-desktop'
 
 try {
     choco config get cachelocation
