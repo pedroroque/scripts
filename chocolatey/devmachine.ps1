@@ -7,6 +7,7 @@
     'googlechrome', 
     'firefox', 
     'microsoft-edge',
+    'microsoft-windows-terminal',
     'git', 
     'vscode',
     'visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"',
