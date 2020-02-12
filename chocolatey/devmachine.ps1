@@ -10,7 +10,7 @@
     'microsoft-windows-terminal',
     'git', 
     'vscode',
-    'visualstudio2019professional --package-parameters ""--allWorkloads --includeRecommended --includeOptional --passive --locale en-US""',
+    'visualstudio2019professional',
     'docker-desktop'
 
 try {
@@ -23,7 +23,7 @@ try {
 
 foreach ($app in $appList) {
     Write-Output "Instalando   $($app)"
-    & choco --% install $app /y 
+    & choco install $app /y 
     Write-Output "================================================================================"
     Write-Output "$($app) Instalado "
     Write-Output "================================================================================"
