@@ -24,7 +24,10 @@ try {
 foreach ($app in $appList) {
     Write-Output "Instalando   $($app)"
     & choco install $app /y 
+    Write-Output "================================================================================"
     Write-Output "$($app) Instalado "
-    Write-Output
+    Write-Output "================================================================================"
 }
 
+# Executar em powershell, como administrador
+# Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/pedroroque/scripts/master/chocolatey/devmachine.ps1'))
