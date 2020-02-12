@@ -9,7 +9,7 @@
     'microsoft-edge',
     'microsoft-windows-terminal',
     'git', 
-    vscode',
+    'vscode',
     @'
 visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"
 '@
