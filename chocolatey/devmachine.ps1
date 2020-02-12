@@ -12,7 +12,7 @@
     vscode',
     @'
 visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"
-@'
+'@
     ,'docker-desktop'
 
 try {
