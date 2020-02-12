@@ -1,17 +1,17 @@
 [string[]]$appList=
-    'nodejs',
-    'notepadplusplus',
-    'python',
-    'ruby',
-    'jekyll', 
-    'googlechrome', 
-    'firefox', 
-    'microsoft-edge',
-    'microsoft-windows-terminal',
-    'git', 
-    'vscode',
-    'visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"',
-    'docker-desktop'
+    @'nodejs',
+    @'notepadplusplus',
+    @'python',
+    @'ruby',
+    @'jekyll', 
+    @'googlechrome', 
+    @'firefox', 
+    @'microsoft-edge',
+    @'microsoft-windows-terminal',
+    @'git', 
+    @vscode',
+    @'visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"',
+    @'docker-desktop'
 
 try {
     choco config get cachelocation
